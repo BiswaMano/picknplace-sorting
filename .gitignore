@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data — large files managed separately
+data/raw/
+data/processed/
+checkpoints/
+results/
+
+# Keep annotation JSONLs in version control
+!data/annotations/*.jsonl
+!data/annotations/*.json
+
+# Gradio cache
+gradio_cached_examples/
+.gradio/
+
+# OS
+.DS_Store
